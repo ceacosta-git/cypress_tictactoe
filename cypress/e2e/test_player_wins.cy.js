@@ -7,7 +7,7 @@ describe('Verifies that a player can win', () => {
         placeMarkAtPosition(0);
         cy.get(endgameMessage)
             .should('be.visible')
-            .and('contain.text', "player O! You've won.");
+            .and('contain.text', "player X! You've won.");
     });
 
 });
