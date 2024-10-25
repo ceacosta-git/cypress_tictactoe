@@ -10,4 +10,16 @@ describe('Verifies that a player can win', () => {
             .and('contain.text', "player X! You've won.");
     });
 
+    it('X can win horizontally', () => {
+        // ToDo
+    });
+
+    it('X can win vertically', () => {
+        // ToDo
+    });
+
+    it('X can win diagonally', () => {
+        // ToDo
+    });
+
 });
