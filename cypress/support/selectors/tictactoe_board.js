@@ -10,3 +10,4 @@
  * @returns selector by id based on position on the Tic Tac Toe
  */
 export const byGridPosition = (position) => `#${position}`;
+export const endgameMessage = '#endgame';
